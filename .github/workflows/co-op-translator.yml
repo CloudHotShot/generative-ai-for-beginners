@@ -1,9 +1,7 @@
 name: Co-op Translator
 
 on:
-  push:
-    branches:
-      - main
+ workflow_dispatch: 
 
 jobs:
   co-op-translator:
@@ -100,3 +98,4 @@ jobs:
             translations/
 
             translated_images/
+
